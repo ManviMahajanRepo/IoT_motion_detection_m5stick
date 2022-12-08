@@ -14,16 +14,16 @@ int discharge;
 int PIR = 36;
 int RL = 33;
 
-#define WIFI_SSID "anant"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID "*****"
+#define WIFI_PASSWORD "*****"
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 
-#define AUTHOR_EMAIL "manvimahajan109@gmail.com"
-#define AUTHOR_PASSWORD "dzsfkcrafyohqxkt"
+#define AUTHOR_EMAIL "********"
+#define AUTHOR_PASSWORD "******"
 
-#define RECIPIENT_EMAIL "manvimahajan109@gmail.com"
+#define RECIPIENT_EMAIL "********"
 
 SMTPSession smtp;
 String htmlMsg = "<div style=\"color:#2f4468;\"><h1>Motion Detected!!!!!</h1><p>- Sent from ESP board</p></div>";
